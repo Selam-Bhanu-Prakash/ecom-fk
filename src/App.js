@@ -1,5 +1,6 @@
 import "./App.css";
 import TopNav from "./components/topNav";
+import Categories from "./components/categories";
 
 function App() {
   return (
@@ -8,6 +9,14 @@ function App() {
         <div className="container">
           <TopNav />
         </div>
+      </div>
+      {/* <div className="stickyNav">
+        <div className="container categories">
+          <Categories />
+        </div>
+      </div> */}
+      <div className="catg-container categories">
+        <Categories />
       </div>
     </div>
   );
